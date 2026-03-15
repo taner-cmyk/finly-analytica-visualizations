@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "id": "heatmapData",
+            "label": "Isı Haritası Verileri",
+            "elements": [
+                {
+                    "id": "dimensions",
+                    "label": "Kırılımlar (Sektör, Alt Sektör, Hisse vb.)",
+                    "type": "DIMENSION",
+                    "options": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metrics",
+                    "label": "Metrikler (1:Büyüklük, 2:Değişim)",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 2,
+                        "max": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "style": [],
+    "interactions": []
+}
