@@ -1,32 +1,69 @@
-/* ticker.css (Güncellenmiş CSS) */
-
+/* Mevcut animasyon yapın */
 .ticker {
     width: 100%;
     height: 100%;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    /* Kapsayıcıyı referans alması için eklendi */
     background-color: transparent;
-    /* İsteğe bağlı */
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
 }
 
 .line {
     display: inline-block;
     white-space: nowrap;
-    /* Metnin alt satıra inmesini engeller */
     will-change: transform;
-    animation: finlyTickerScroll 20s linear infinite;
+    animation: finlyTickerScroll 30s linear infinite;
+    /* Hızı buradan ayarlayabilirsin */
 }
 
 @keyframes finlyTickerScroll {
     0% {
-        transform: translateX(100vw);
-        /* Ekranın/Bileşenin en sağından dışarıda başlar */
+        transform: translateX(0);
     }
 
     100% {
-        transform: translateX(-100%);
-        /* Kendi uzunluğu kadar sola gidip tamamen kaybolur */
+        transform: translateX(-50%);
     }
+
+    /* Kesintisiz döngü için -50% idealdir */
+}
+
+/* YENİ: Renk ve Stil Sınıfları */
+.item {
+    display: inline-flex;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+
+.value {
+    font-weight: 800;
+    /* Daha belirgin font */
+}
+
+.val-up {
+    color: #00c853 !important;
+    /* Yeşil */
+}
+
+.val-down {
+    color: #ff3d00 !important;
+    /* Kırmızı */
+}
+
+.val-neutral {
+    color: #444;
+}
+
+.sep {
+    margin-left: 20px;
+    color: #ccc;
 }

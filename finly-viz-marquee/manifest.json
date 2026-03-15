@@ -13,7 +13,7 @@
             "description": "Dynamic scrolling band optimized for 1-Dimension and 1-Metric datasets. Features automatic color-coding for financial performance tracking.",
             "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
             "resource": {
-                "js": "gs://finly-analytica-period-tabs/finly-viz-marquee/marquee.js",
+                "js": "gs://finly-analytica-period-tabs/finly-viz-marquee/marquee_v2.js",
                 "config": "gs://finly-analytica-period-tabs/finly-viz-marquee/marquee-config.json",
                 "css": "gs://finly-analytica-period-tabs/finly-viz-marquee/marquee.css"
             }
