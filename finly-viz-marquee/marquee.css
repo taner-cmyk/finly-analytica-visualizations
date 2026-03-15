@@ -1,0 +1,32 @@
+/* ticker.css (Güncellenmiş CSS) */
+
+.ticker {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    /* Kapsayıcıyı referans alması için eklendi */
+    background-color: transparent;
+    /* İsteğe bağlı */
+}
+
+.line {
+    display: inline-block;
+    white-space: nowrap;
+    /* Metnin alt satıra inmesini engeller */
+    will-change: transform;
+    animation: finlyTickerScroll 20s linear infinite;
+}
+
+@keyframes finlyTickerScroll {
+    0% {
+        transform: translateX(100vw);
+        /* Ekranın/Bileşenin en sağından dışarıda başlar */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Kendi uzunluğu kadar sola gidip tamamen kaybolur */
+    }
+}
