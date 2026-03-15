@@ -13,7 +13,7 @@
             "description": "Multi-metric interactive scorecard for performance tracking. Dynamically displays dimension labels and metric values with built-in filter support.",
             "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
             "resource": {
-                "js": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard.js",
+                "js": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard_v2.js",
                 "config": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard-config.json",
                 "css": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard.css"
             }
