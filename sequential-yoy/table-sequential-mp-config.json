@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": "tableData",
+            "label": "Tablo Verileri",
+            "elements": [
+                {
+                    "id": "dateDim",
+                    "label": "Tarih / Dönem Boyutu",
+                    "type": "DIMENSION",
+                    "options": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                {
+                    "id": "sectorDim",
+                    "label": "Sektör (Banka, Sanayi vb.)",
+                    "type": "DIMENSION",
+                    "options": {
+                        "min": 1,
+                        "max": 1
+                    }
+                },
+                {
+                    "id": "metricsBank",
+                    "label": "Metrics A: Banka Kalemleri",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 0,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "metricsNonBank",
+                    "label": "Metrics B: Banka Dışı Kalemler",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 0,
+                        "max": 20
+                    }
+                }
+            ]
+        }
+    ],
+    "style": [],
+    "interactions": []
+}
