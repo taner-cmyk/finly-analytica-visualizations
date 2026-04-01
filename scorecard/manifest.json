@@ -1,0 +1,24 @@
+{
+    "name": "Finly Interactive Scorecard",
+    "organization": "Dataconnecta",
+    "organizationUrl": "https://www.dataconnecta.com",
+    "description": "Professional financial scorecard with simultaneous period labeling and percentage change tracking. Supports interactive filtering and dynamic color-coding.",
+    "logoUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+    "packageUrl": "https://www.dataconnecta.com/finly-analytica",
+    "supportUrl": "https://www.dataconnecta.com/contact",
+    "termsOfServiceUrl": "https://www.dataconnecta.com/legal",
+    "devMode": false,
+    "components": [
+        {
+            "id": "finly-viz-scorecard",
+            "name": "FA - Interactive Scorecard",
+            "description": "Multi-metric interactive scorecard for performance tracking. Dynamically displays dimension labels and metric values with built-in filter support.",
+            "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+            "resource": {
+                "js": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard_v2.js",
+                "config": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard-config.json",
+                "css": "gs://finly-analytica-period-tabs/finly-viz-scorecard/scorecard.css"
+            }
+        }
+    ]
+}
