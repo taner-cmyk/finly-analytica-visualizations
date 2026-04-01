@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "id": "periodData",
+            "label": "Periyot Verileri",
+            "elements": [
+                {
+                    "id": "periodDims",
+                    "label": "Filtre Boyutları (btn_1M, btn_3M)",
+                    "type": "DIMENSION",
+                    "options": {
+                        "min": 1,
+                        "max": 10
+                    }
+                },
+                {
+                    "id": "changeMets",
+                    "label": "Değişim Metrikleri (1A, 3A)",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 1,
+                        "max": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "style": [],
+    "interactions": [
+        {
+            "id": "periodFilter",
+            "supportedActions": [
+                "FILTER"
+            ]
+        }
+    ]
+}
