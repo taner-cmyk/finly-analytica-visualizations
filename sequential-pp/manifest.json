@@ -1,0 +1,24 @@
+{
+    "name": "Finly FinTable (Sequential MP)",
+    "organization": "Dataconnecta",
+    "organizationUrl": "https://www.dataconnecta.com",
+    "description": "Professional financial table for sequential (QoQ) analysis. Dynamically switches between metric buckets based on the selected sector and auto-hides empty rows.",
+    "logoUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+    "packageUrl": "https://www.dataconnecta.com/finly-analytica",
+    "supportUrl": "https://www.dataconnecta.com/contact",
+    "termsOfServiceUrl": "https://www.dataconnecta.com/legal",
+    "devMode": false,
+    "components": [
+        {
+            "id": "finly-analytica-fintable-sequential-mp",
+            "name": "Sequential MP",
+            "description": "Financial comparison table for Balance Sheets. Features automatic preceding period selection and dynamic sector-based metric switching.",
+            "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+            "resource": {
+                "js": "gs://finly-analytica-period-tabs/finly-viz-sequential-mp/table-sequential-mp.js",
+                "config": "gs://finly-analytica-period-tabs/finly-viz-sequential-mp/table-sequential-mp-config.json",
+                "css": "gs://finly-analytica-period-tabs/finly-viz-sequential-mp/table-sequential-mp.css"
+            }
+        }
+    ]
+}
