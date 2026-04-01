@@ -1,0 +1,24 @@
+{
+    "name": "Finly FinTable (Sequential YOY MP)",
+    "organization": "Dataconnecta",
+    "organizationUrl": "https://www.dataconnecta.com",
+    "description": "Professional financial table for Year-over-Year (YOY) analysis. Dynamically switches between metric buckets based on the selected sector and auto-hides empty rows.",
+    "logoUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+    "packageUrl": "https://www.dataconnecta.com/finly-analytica",
+    "supportUrl": "https://www.dataconnecta.com/contact",
+    "termsOfServiceUrl": "https://www.dataconnecta.com/legal",
+    "devMode": false,
+    "components": [
+        {
+            "id": "finly-analytica-fintable-sequential-yoy-mp",
+            "name": "Sequential YOY MP",
+            "description": "Financial comparison table for Balance Sheets. Features automatic Year-over-Year period selection and dynamic sector-based metric switching.",
+            "iconUrl": "https://static.wixstatic.com/media/ba4616_1fedb600cc474b41bf1356855e889983~mv2.png",
+            "resource": {
+                "js": "gs://finly-analytica-period-tabs/finly-viz-sequential-yoy-mp/table-sequential-yoy-mp.js",
+                "config": "gs://finly-analytica-period-tabs/finly-viz-sequential-yoy-mp/table-sequential-mp-config.json",
+                "css": "gs://finly-analytica-period-tabs/finly-viz-sequential-yoy-mp/table-sequential-mp.css"
+            }
+        }
+    ]
+}
