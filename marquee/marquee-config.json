@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "id": "default",
+            "label": "Finly Analytica Ticker",
+            "elements": [
+                {
+                    "id": "tickerStock",
+                    "label": "Stock Code",
+                    "type": "DIMENSION"
+                },
+                {
+                    "id": "tickerLast",
+                    "label": "Last Price",
+                    "type": "METRIC"
+                },
+                {
+                    "id": "tickerChange",
+                    "label": "Change",
+                    "type": "METRIC"
+                }
+            ]
+        }
+    ],
+    "style": [],
+    "interactions": []
+}
